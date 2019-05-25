@@ -1,0 +1,103 @@
+video {
+    min-width: 100%;
+    min-height: 100%;
+    width:auto;
+    height:auto;
+
+}
+
+body {
+    color: black;
+    font-family: "Lucida Sans Unicode", "Arial Black", Gadget, sans-serif;
+    overflow-x: hidden;
+    line-height: 1.5;
+    margin: 0;
+    font-size: 1rem;
+    
+}
+.v-header {
+    height:100vh;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    
+    color: white;
+    
+}
+.container {
+    max-width: 960px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    text-align: center;
+ 
+}
+.fullscreen-video-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.header-overlay {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #225470;
+    z-index: 1;
+    opacity: 0.85;
+}
+.header-content {
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+}
+.header-content h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.header-content p1 {
+    font-size: 1.5rem;
+    display: block;
+    padding-bottom: 2rem;
+    
+}
+.btn {
+    opacity: 0.85;
+    color: white;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    border: solid;
+    border-color: white;
+    text-decoration: none;
+}
+.section { 
+    align-items: center;
+    padding: 10vh 0; 
+   
+}
+.section p { /* COME BACK TO DO THIS WHEN YOU ADD ACTUAL PROJECTS */
+
+        width: ;
+        max-width: ;
+    
+
+}
+.section-b{
+    background: #333;
+    color: white;
+   
+}
+@media(max-width:960px) {
+    .container{
+        padding-right: 3rem;
+        padding-left: 3rem;
+    }
+
+
+
+
+}
