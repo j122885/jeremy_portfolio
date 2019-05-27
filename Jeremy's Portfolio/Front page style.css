@@ -75,14 +75,13 @@ body {
     text-decoration: none;
 }
 .section { 
-    align-items: center;
-    padding: 10vh 0; 
+    padding: 50vh 0; 
    
 }
 .section p { /* COME BACK TO DO THIS WHEN YOU ADD ACTUAL PROJECTS */
 
-        width: ;
-        max-width: ;
+        width: 
+        max-width: 
     
 
 }
@@ -96,8 +95,49 @@ body {
         padding-right: 3rem;
         padding-left: 3rem;
     }
+}
+#nav {
+    
+}
+.section-a-nav{
 
+    overflow: hidden;
+    border: solid;
+    border-bottom-color: #3C1776;
+    border-top-color: #054A9D;
+    border-left-color: #054A9D;
+    border-right-color: #054A9D;
+    background-color: #054A9D;
+    margin: auto;
+    padding: 1px;
+    
+    
+    
+    }
+.section-a-nav ul{ 
+    list-style-type: none;
+    display: block;
+    float: left;
+    text-align: center;
+    
 
-
+    
+}
+.section-a-nav ul a {
+    font-family: "Lucida Sans Unicode", "Arial Black", Gadget, sans-serif;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+.section-a-nav ul a:hover {
+    color: black;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
 
 }
