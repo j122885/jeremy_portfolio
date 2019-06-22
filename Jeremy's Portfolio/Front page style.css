@@ -10,7 +10,7 @@ body {
     color: black;
     font-family: "Lucida Sans Unicode", "Arial Black", Gadget, sans-serif;
     overflow-x: hidden;
-    line-height: 1.5;
+    line-height: 1.1;
     margin: 0;
     font-size: 1rem;
     
@@ -75,30 +75,80 @@ body {
     text-decoration: none;
 }
 .section { 
-    padding: 50vh 0; 
+    padding: 30vh 0; 
    
 }
-.section p { /* COME BACK TO DO THIS WHEN YOU ADD ACTUAL PROJECTS */
 
-        width: 
-        max-width: 
-    
-
+.section-a{
+    background: #E8EAEC;
+    color: black;
+    padding: 10vh;
+     
 }
 .section-b{
     background: #333;
     color: white;
-   
+    padding: 3vh;
 }
+.section-b a{
+    padding: 20px;
+
+}
+.container-heading {
+    color: black;
+    text-align: center;
+    position: relative;
+    top: -1vh;     
+}
+@media(min-width: 760px) {
+    
+    .container-1 {
+    display: flex;
+   
+    }
+    
+    .container-2 {
+    display: flex;
+    
+    }
+    .container-1 div, .container-2 div{
+    border: 1px #ccc solid;
+    padding: 10vh;
+    }
+}
+.project-1{
+    flex: 1;
+
+}
+.project-1:hover, .project-2:hover, .project-3:hover, .project-4:hover, .project-5:hover, .project-6:hover {
+    background-color: #D3D3D3;
+}
+.project-2 {
+    flex: 1;
+}
+
+.project-3 {
+    flex: 1;
+}
+
+.project-4 {
+    flex: 1;
+
+}
+.project-5 {
+    flex: 1;
+}
+.project-6 {
+    flex: 1;
+}
+
 @media(max-width:960px) {
     .container{
         padding-right: 3rem;
         padding-left: 3rem;
     }
 }
-#nav {
-    
-}
+
 .section-a-nav{
 
     overflow: hidden;
