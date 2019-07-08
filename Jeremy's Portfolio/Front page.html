@@ -1,4 +1,5 @@
 <!DOCTYPE HTML>
+<html>
 <head>
  <link rel="stylesheet" href="Front page style.css">
 <title> Insert link for website</title>
@@ -17,24 +18,8 @@
     </header>
         
      <div id="nav" >
-            <script>
-                    window.onscroll = function() {myFunction()};
-                       var nav = document.getElementById("nav");
-                       var sticky = nav.offsetTop;
-                    
-                       
-                   function myFunction ()  { 
-                       if (window.pageYOffset >= sticky) {
-                        nav.classList.add("sticky");
-                        console.log();
-                        
-                           }
-                       else {
-                        nav.classList.remove("sticky");
-                        }
+            <script src="Porfolio.js">
                    
-                   
-                       }
             </script>
         <nav class="section-a-nav" >  
             <ul >
@@ -56,8 +41,14 @@
         </div>
         <div class= "container-1" >  
             <div class = "project-1">
-                <h2> Project 1 </h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipe suscipit illum at quam? Repudiandae modi error iusto cum culpa laborum deserunt.</p>
+                <h2> Magic 8Ball Game </h2>
+                <video  autoplay="true" loop="true" >
+                    <source src="8ballvideo.mp4" type="video/mp4"  >
+                        Sorry, your browser doesn't support embedded videos.
+                  </video>
+                
+                <p> Ask a question and click the button to get an answer.</p>
+                <a href="https://github.com/j122885/Magic-8-Ball">Github</a>
             </div>
           
             <div class = "project-2">
@@ -87,11 +78,12 @@
      </section>
      <section Id="section-b" class="section section-b">
             <div class="container">
-                <h1>Contact and media</h1>
+                <h1>Contact and Media</h1>
                 <a href= "https://www.linkedin.com/in/jeremy-howard-a51b37173/"> <img src="linkedin-logo-png-2046 (1).png" style="width: 80px;" > </a> 
                 <a href= "https://github.com/j122885"> <img src="githubicon.png" style="width: 80px;" > </a> 
 
             </div>
+            
      </section>
 
 

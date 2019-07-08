@@ -117,35 +117,26 @@ body {
     }
 }
 .project-1{
-    flex: 1;
+    flex: 2;
+    text-align: center;
+
+}
+.project-1 video {
+    width: 10rem;
+    height: 10rem;
 
 }
 .project-1:hover, .project-2:hover, .project-3:hover, .project-4:hover, .project-5:hover, .project-6:hover {
     background-color: #D3D3D3;
 }
-.project-2 {
-    flex: 1;
-}
-
-.project-3 {
-    flex: 1;
-}
-
-.project-4 {
-    flex: 1;
-
-}
-.project-5 {
-    flex: 1;
-}
-.project-6 {
+.project-2, .project-3, .project-4, .project-5 , .project-6{
     flex: 1;
 }
 
 @media(max-width:960px) {
     .container{
         padding-right: 3rem;
-        padding-left: 3rem;
+        padding-left: 1rem;
     }
 }
 
