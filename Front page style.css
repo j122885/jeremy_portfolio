@@ -103,6 +103,21 @@ body {
     position: relative;
     top: -1vh;     
 }
+@media(min-width: 576px) {
+    
+    .container-1 {
+    display: flex;
+   
+    }
+    
+    .container-2 {
+    display: flex;
+    
+    }
+    .container-1 div, .container-2 div{
+    border: 1px #ccc solid;
+    padding: 5%;
+    }
 @media(min-width: 760px) {
     
     .container-1 {
@@ -116,7 +131,7 @@ body {
     }
     .container-1 div, .container-2 div{
     border: 1px #ccc solid;
-    padding: 10vh;
+    padding: 10%;
     }
 }
 .project-1{
@@ -136,10 +151,12 @@ body {
     flex: 1;
 }
 
-@media(max-width:960px) {
+@media only screen and (max-width:960px) {
     .container{
         padding-right: 3rem;
         padding-left: 1rem;
+        display:none;
+        
     }
 }
 
