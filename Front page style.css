@@ -1,12 +1,20 @@
 html{
     scroll-behavior: smooth;
+    width: 100%;
 }
-video {
+.fullscreen-video-wrap video {
     min-width: 100%;
     min-height: 100%;
     width:auto;
     height:auto;
 
+}
+
+.project-1 video, .project-2 video{
+    max-width: 100%;
+    max-height: 10%;
+    width:auto;
+    height:auto;
 }
 
 body {
@@ -28,7 +36,7 @@ body {
     
 }
 .container {
-    max-width: 960px;
+    max-width: 965px;
     padding-left: 1rem;
     padding-right: 1rem;
     margin: auto;
@@ -43,6 +51,7 @@ body {
     height: 100vh;
     overflow: hidden;
 }
+
 .header-overlay {
     height: 100vh;
     width: 100vw;
@@ -91,7 +100,7 @@ body {
 .section-b{
     background: #333;
     color: white;
-    padding: 3vh;
+    padding: 4vh;
 }
 .section-b a{
     padding: 20px;
@@ -103,7 +112,7 @@ body {
     position: relative;
     top: -1vh;     
 }
-@media(min-width: 576px) {
+/* @media(min-width: 576px) {
     
     .container-1 {
     display: flex;
@@ -117,8 +126,8 @@ body {
     .container-1 div, .container-2 div{
     border: 1px #ccc solid;
     padding: 5%;
-    }
-@media(min-width: 760px) {
+    } */
+/* @media(min-width: 760px) {
     
     .container-1 {
     display: flex;
@@ -126,24 +135,42 @@ body {
     }
     
     .container-2 {
-    display: flex;
+    display: none;
+    
     
     }
     .container-1 div, .container-2 div{
     border: 1px #ccc solid;
-    padding: 10%;
+    padding: 2%;
     }
+} */
+.container-1 {
+    display: flex;
+    
+   
+    }
+.container-2 {
+    display: none;
 }
+
 .project-1{
-    flex: 2;
+    flex: 1;
     text-align: center;
+    
 
 }
-.project-1 video {
-    width: 10rem;
-    height: 10rem;
-
+.project-2{
+    flex: 1;
+    text-align: center; 
+    
 }
+.project-3{
+    flex: 1;
+    text-align: center; 
+    display: none;
+}
+
+
 .project-1:hover, .project-2:hover, .project-3:hover, .project-4:hover, .project-5:hover, .project-6:hover {
     background-color: #D3D3D3;
 }
@@ -200,5 +227,5 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-
+    z-index: 1;
 }
