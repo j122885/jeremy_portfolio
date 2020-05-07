@@ -11,8 +11,8 @@ html{
 }
 
 .project-1 video, .project-2 video{
-    max-width: 100%;
-    max-height: 10%;
+    max-width: 80%;
+    
     width:auto;
     height:auto;
 }
@@ -155,12 +155,14 @@ body {
 
 .project-1{
     flex: 1;
+    height: 10%;
     text-align: center;
     
 
 }
 .project-2{
     flex: 1;
+    height: 10%;
     text-align: center; 
     
 }
